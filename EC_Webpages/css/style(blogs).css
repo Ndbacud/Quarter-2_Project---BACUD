@@ -1,0 +1,142 @@
+.header{
+    background-color: rgb(255, 199, 208);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+   height: 100px;
+   width: auto;
+   margin-right: 10px;
+   margin-top: 3px;
+}
+.title{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 1000px;
+    height: 550px;
+    margin-top: 650px;
+    margin-right: 300px;
+}
+.Topic h1 {
+   align-items: center;
+   font-size: 30px;
+   color: #333;
+}
+.community-paragraph {
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   border: 3px rgb(255, 199, 208);
+   border-style: dashed;
+   padding: 10px;
+   margin: 20px;
+   display: inline-block;
+}
+.footer {
+    background-color: rgb(255, 199, 208);
+    position: fixed; 
+    bottom: 0; 
+    width: 200%;
+    text-align: center; 
+    padding: 10px 0;
+  }
+  
+  .footer .top-section,
+  .footer .bottom-section {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .footer a {
+    text-decoration: none;
+    color: black;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  #navlist {
+    position: absolute;
+  }
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    top: 0;
+  }
+  #navlist li, #navlist a{
+    height: 44px;
+    display: inline-block;
+  }
+  .youtube {
+    background: url('../images/Untitled design (1).png') no-repeat -500px -269px;
+    width: 47px;
+    height: 47px;
+    transform: scale(0.8);
+  }
+  
+  .youtube:hover {
+    background: url('../images/Untitled design (1).png') no-repeat -501px -336px;
+    width: 47px;
+    height: 47px;
+    transform: scale(0.8);
+  }
+  .pinterest {
+    background: url('../images/Untitled design (1).png') no-repeat -428px -269px;
+    width: 48px;
+    height: 47px;
+    transform: scale(0.8);
+  }
+    
+  .pinterest:hover {
+    background: url('../images/Untitled design (1).png') no-repeat -429px -336px;
+    width: 47px;
+    height: 47px;
+    transform: scale(0.8);
+  }
+  .facebook {
+    background: url('../images/Untitled design (1).png') no-repeat -356px -269px;
+    width: 48px;
+    height: 47px;
+    transform: scale(0.8);
+  }
+
+  .facebook:hover{
+    background: url('../images/Untitled design (1).png') no-repeat -356px -336px;
+    width: 48px;
+    height: 47px;
+    transform: scale(0.8);
+  }
+  
