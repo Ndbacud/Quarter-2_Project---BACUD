@@ -19,6 +19,10 @@
    height: 130px;
    width: auto;
 }
+.logo:hover{
+   transition: transform 0.3s ease-in-out;
+   transform: scale(.80);
+}
 .title{
     margin-left: 20px;
     display: flex;
